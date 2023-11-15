@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "hotel-accommodation-db"
+version = "0.1.0"
+description = "酒店开房数据"
+authors = ["Jesse3692 <lcf.zhangxing@hotmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.9.1"
+pandas = "^2.1.3"
+ipykernel = "^6.26.0"
+sqlalchemy = "^2.0.23"
+pymysql = "^1.1.0"
+alembic = "^1.12.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
